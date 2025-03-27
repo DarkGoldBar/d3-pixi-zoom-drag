@@ -12,7 +12,7 @@ interface link {
   value: number;
 }
 
-interface miserables {
+export interface miserables {
   nodes: node[];
   links: link[];
 }
